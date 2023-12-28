@@ -1,0 +1,105 @@
+h1, h2{
+ font-weight: normal;   
+}
+
+#wrapper{
+width: 90%;
+max-width: 960px;
+margin: 20px auto;
+border-radius: 10px; 
+box-shadow: 0px 1px 6px rgba(0,0,0,0.2);
+box-sizing: border-box;
+padding: 0 0 20px;
+overflow: hidden;
+border: 1px solid lightgray;
+}
+
+#banner{
+  background: #eee;
+  padding: 10px 0px;
+
+}
+
+#banner h1, #banner p{
+ width: 100%;
+ text-align: center; 
+ margin: 10px 0;  
+}
+
+#banner input{
+width: 90%;
+max-width: 300px;
+margin: 20px auto; 
+display: block;
+padding: 8px;
+border: 1px solid #ddd;
+border-radius: 10px;  
+font-size: 16px;
+color: #444;
+}
+
+#list ul li, #tabbed- content{
+ list-style-type: none; 
+ padding: 20px;
+}
+
+#list li{
+ padding: 20px;
+ border-left: 5px solid #ddd;
+ margin: 20px 10px;
+}
+
+#list li:hover{
+  border-color: #9361bf;  
+}
+
+#list .title{
+ margin: 45px;
+    
+}
+
+.delete{
+  float: right;
+  background: #9361bf;
+  padding: 6px;
+  border-radius: 5px;
+  color: #eee;
+
+}
+
+
+
+#Add {
+    width: 300px;
+    margin: 20px auto; 
+    display: block;
+    padding: 8px;
+    border-radius: 10px;  
+    font-size: 16px;
+   /* max-width: 300px;*/
+}
+
+button{
+    background: #9361bf;
+    color: #eee;
+    width: 80px;
+    padding: 6px;
+     
+}
+
+#Add input{
+    width: 200px;
+    padding: 6px;
+   
+}
+
+#Add #hide{
+ width:30px; 
+}
+
+#Add label{
+line-height: 60px;
+
+}
+
+
